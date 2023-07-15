@@ -1,0 +1,444 @@
+/*
+    Style front page
+*/
+
+
+
+/* Projects */
+.cpl-page-header{
+	line-height: 100%;
+	font-weight: 700;
+	font-size: 1.5rem;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	color: #091e50;
+	margin-bottom: 24px !important;
+	display: flex;
+	align-items: center;
+}
+.cpl-page-header i {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	margin-right: 10px;
+	position: relative;
+}
+
+
+
+
+.filter-projects{
+	margin-bottom: 60px;
+	padding-bottom: 40px;
+}
+
+.filter-projects .filter-element{
+	margin-bottom: 20px;
+}
+
+.filter-projects .cpl-filter-area{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+}
+
+
+.filter-projects .cpl-filter-area .cpl-filter-section-left{
+	width: 25%;
+	display: flex;
+}
+.filter-projects .cpl-filter-area .cpl-filter-section-right{
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.filter-projects .cpl-filter-area .cpl-filter-section{
+	padding: 0px 15px;
+}
+.filter-projects .cpl-filter-area .cpl-filter-section-left .cpl-filter-section{
+	width: 100%;
+}
+.filter-projects .cpl-filter-area .cpl-filter-section-right .cpl-filter-section{
+	width: 33.333333%;
+}
+.filter-projects .cpl-filter-area .cpl-filter-section .filter-title{
+	color: #091e50;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 1rem;	
+}
+
+.filter-projects .filter-items{
+    padding-left: 10px;
+}
+.filter-projects .cpl-filter-section .filter-item label{
+	color: #555555;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.filter-projects .filter-items-select select{
+	width: auto;
+}
+
+.filter-items-checkbox .filter-item{
+	margin-bottom: 7px;
+}
+.filter-items-checkbox label{
+	display: inline;
+	position: relative;
+	padding-left: 35px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.filter-items-checkbox label input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.term-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 23px;
+	width: 23px;
+	background-color: #eee;
+}
+.filter-items-checkbox label:hover input ~ .term-label {
+	background-color: #ccc;
+}
+.filter-items-checkbox label input:checked ~ .term-label {
+	background-color: #3c5b8d;
+}
+.term-label:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.filter-items-checkbox label input:checked ~ .term-label:after {
+	display: block;
+}
+.filter-items-checkbox label .term-label:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.filter-projects input[type=number]::-webkit-outer-spin-button,
+.filter-projects input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.filter-projects input[type=number]{
+	-moz-appearance: textfield;
+}
+.filter-projects .clp-filter-btn{
+	padding: 0px 15px;
+	width: 100%;
+}
+.filter-projects .container-btn{
+	width: 100%;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #c6c6c6;
+    padding: 20px 0px;
+}
+.filter-projects .container-btn .search-filter{
+	width: auto !important;
+}
+.filter-projects .container-btn .btn{
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+}
+.filter-projects .container-btn .clear-filter{
+	padding: 0px !important;
+	line-height: 100%;
+	background: inherit;
+	color: #091e50;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.projects-list{
+	text-align: center;
+}
+.projects-list thead{
+	color: #FFFFFF;
+	background: #3c5b8d;
+}
+
+.projects-list tr{
+	line-height: 2rem;
+}
+.projects-list thead th{
+	line-height: 3rem;
+	border-right: 1px solid #6e89b4d9;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;   
+}
+.projects-list thead td{
+	border-left: 1px solid #3c5b8d;
+}
+.projects-list thead th:last-child{
+	border-right: 1px solid #3c5b8d;
+}
+
+.projects-list tbody tr{
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	border-right: 1px solid rgb(184 184 184 / 20%);
+	background-color: #ffffff;
+}
+.projects-list tbody tr:nth-child(even) {
+	background-color: #f6f5f9;
+}
+.projects-list tbody td{
+	border-left: 1px solid rgb(184 184 184 / 20%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.projects-list thead .cpl-filter-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	line-height: 100%;
+}
+.projects-list thead .cpl-filter-section .cpl-filter-item{
+	display: flex;
+	flex-wrap: wrap;
+	width: 20px;
+	justify-content: center;
+	margin-left: 15px;
+}
+
+.cpl-filter-sort-item .cpl-filter-sort-btn{
+	display: none;
+}
+
+.projects-list thead .cpl-filter-section .cpl-filter-sort-item label{
+	display: inline;
+	font-size: 20px;
+	line-height: 10px;
+	cursor: pointer;
+}
+.projects-list thead .cpl-filter-section .cpl-filter-sort-item span{
+	margin-left: 15px;
+	transition: all .3s ease;
+	opacity: .5;
+}
+.projects-list thead .cpl-filter-section .cpl-filter-sort-item label:hover span,
+.projects-list thead .cpl-filter-section .cpl-filter-sort-btn:checked~span{
+	opacity: 1;
+}
+.projects-list thead .cpl-filter-section .cpl-filter-sep{
+	width: 100%;
+	height: 5px;
+	padding: 0px 10px;
+	z-index: 10000;
+	position: relative;
+}
+.projects-list thead .cpl-filter-section label{
+	margin: 0;
+}
+.projects-list .cpl-project-link{
+    color: #0056b3;
+	transition: all .3s ease;
+	font-weight: 600;
+}
+.projects-list .cpl-project-link:visited{
+    color: #0056b3;
+}
+.projects-list .cpl-project-link:hover{
+    color: #5684cf;
+    text-decoration: none;
+}
+
+.projects-list .not-fount td{
+    border-left: 1px solid #989898;
+}
+.projects-list .not-fount p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0px;
+    text-align: left;
+    padding: 20px 14px;
+    background-color: #f5f4f9;
+    border: 0px;
+	border-left: 4px solid #989898;
+}
+.projects-list .cpl-project-val{
+	font-size: 0.9rem;
+    line-height: 2rem;
+    margin: 0px;
+}
+.projects-list .cpl-project-link{
+	font-size: 1rem;
+}
+.title-project-val-project_link{
+	width: 18%;
+}
+.projects-list .title-project-val-project_status{
+	width: 18%;
+}
+.projects-list .title-project-val-project_type,
+.projects-list .title-project-val-project_price_value,
+.projects-list .title-project-val-post_data,
+.projects-list .title-project-val-modified_date{
+	width: 16%;
+}
+
+
+
+
+
+
+#cpl_posts_nav .navigation ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+    margin: 40px 0px;
+}
+#cpl_posts_nav .navigation li{
+	list-style: none;
+    margin: 5px 10px;
+}
+#cpl_posts_nav .navigation li a{
+	border: 1px solid #3c5b8d;
+	transition: all .3s ease;
+	font-weight: 600;
+	opacity: .9;
+	padding: 5px 10px;
+	background: #3c5b8d;
+	color: whitesmoke;
+	font-size: 1rem;
+	line-height: 100%;
+}
+#cpl_posts_nav .navigation li.active a{
+	text-decoration: none;
+	background: #f7f7f7;
+	color: #3c5b8d;
+	opacity: 1;
+}
+#cpl_posts_nav .navigation li a:hover{
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 575.98px){
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+
+
+}
+
+
+@media (min-width: 1200px){
+
+
+}
+
+
+@media (max-width: 1800px){
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

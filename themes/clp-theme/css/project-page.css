@@ -1,0 +1,581 @@
+/*
+    Style front page
+*/
+
+
+
+
+
+
+
+
+/* Project */
+.um-account-side li a.new-messege .um-account-title{
+	text-shadow: #00ce00 1px 0 10px!important;
+}
+.um-account-side li a.new-messege .um-account-icon{
+	color: #00ce00 !important;
+}
+#project{
+	min-height: 300px;
+}
+#project .updata-project p{
+    margin: 0px !important;
+}
+
+.single-project h1.entry-title{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #091e50;
+	margin: 0px 0px 10px;
+	padding: 0 0 18px 0;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	letter-spacing: 0.3rem;
+	margin-bottom: 2rem !important;
+}
+.um-meta-project{
+    margin-bottom: 30px;
+}
+.um-meta-project .text-meta-project{
+    text-align: center;
+    margin-bottom: 5px;
+    color: gray;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+.um-meta-project .value-meta-project{
+	color: #091e50;
+}
+.um-meta-project .value-meta-project a{
+	font-weight: 700;
+	letter-spacing: 1px;
+	transition: all .2s;
+	color: #800080;
+}
+.um-meta-project .value-meta-project a:hover{
+    color: #5684cf;
+    text-decoration: none;
+}
+
+.um-account-tab{
+    width: 100%;
+}
+.updata-project  .tab-div{
+	display: none;
+}
+.updata-project  .tab-div.active{
+	display: block;
+}
+
+.project .container-btn{
+	text-align: right;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.project .container-btn .btn{
+	width: 100%;
+	padding: 0px 40px;
+	height: 40px;
+}
+.project-btn .btn{
+	display: none;
+}
+#btn-edit-project{
+	display: block;
+}
+#btn-updata-project{
+    background: #047972;
+}
+#btn-updata-project:hover{
+	background: #0dc0b6;
+}
+
+
+
+
+html body #page .clp-field-project-status .clp-field-label,
+html body #page .clp-field-project-status .selected-project-status select,
+html body #page .clp-field-payment .clp-field-label,
+html body #page .clp-field-payment .textarea-field-block,
+html body #page .clp-field-payment input,
+html body #page .clp-field-payment select{
+	font-size: 1.3rem !important;
+	line-height: 100%;
+}
+
+html body #page .disable-form .clp-field-project-status select,
+html body #page .disable-form .clp-field-payment .textarea-field-block,
+html body #page .disable-form .clp-field-payment .clp-field-update{
+	font-weight: 700 !important;
+	color: #0056b5 !important;
+}
+
+
+.updata-project textarea{
+    display: block;
+}
+.updata-project .field-not-valid{
+    display: block;
+}
+.updata-project .tab-content{
+	padding: 15px 0px;
+}
+
+.um-account-main .updata-project .um-account-tab div.um-account-heading{
+	margin-bottom: 0rem !important;
+}
+html body #page .updata-project .disable-form .clp-field-hide, html body #page .updata-project .disable-form .um-req{
+	display: none;
+}
+
+
+.updata-project .edit-form .clp-field-hide textarea{
+	display: block;
+}
+.updata-project .disable-form textarea{
+	display: none;
+}
+html body #page .updata-project select:disabled{
+	border: 1px solid #ffffff00 !important;
+	background: #ffffff00 !important;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	opacity: 1;
+	cursor: default;
+}
+
+
+
+
+.clp-tab-main-information .project-section{
+	padding-bottom: 20px;
+}
+.clp-tab-main-information .clp-field-area{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 40px;
+	margin: 0px !important;
+	padding: 10px 0px 20px 0px;
+}
+
+.clp-tab-main-information .clp-field-payment .clp-field,
+.clp-tab-main-information .clp-field-payment,
+.clp-tab-main-information .clp-field-project-status,
+.clp-tab-main-information .clp-field-area-section{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.clp-tab-main-information .clp-field-payment,
+.clp-tab-main-information .clp-field-payment-description{
+	width: 100%
+}
+.clp-tab-main-information .clp-field-payment .clp-area-fields{
+	padding: 0px;
+}
+.clp-tab-main-information .clp-field-label{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	color: #091e50;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 100%;
+}
+.clp-tab-main-information .clp-field-flex-label{
+	margin-bottom: 0px;
+}
+.clp-tab-main-information .clp-project-status-description{
+	width: 100%;
+}
+.clp-tab-main-information .clp-description-block{
+	text-align: left;
+	padding: 10px;
+	background: #e7f2fa;
+	margin: 0px;
+	margin-top: 10px;
+	display: block;
+	height: 100%;
+	border: 1px solid #ebebeb;
+	position: relative;
+	-webkit-box-shadow: 4px 4px 8px -5px rgb(34 60 80 / 20%);
+	-moz-box-shadow: 4px 4px 8px -5px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px -5px rgb(34 60 80 / 20%);
+	cursor: default;
+}
+.clp-tab-main-information .clp-description-block .clp-description-text:after{
+    font-family: "FontAwesome" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    top: -17px;
+    left: 10px;
+    position: absolute;
+    z-index: 1;
+    color: #e7f2fa;
+    font-size: 28px;
+    line-height: 1em !important;
+    content: "\f0d8";
+}
+.clp-tab-main-information .clp-description-block .clp-description-text{
+	display: none;
+	margin: 0px;	
+}
+.clp-tab-main-information .clp-description-block .clp-description-text.clp-description-text-selected{
+	display: block;
+}
+.clp-tab-main-information .clp-field-payment .clp-area-fields{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.clp-tab-main-information .clp-field-payment .clp-field-label{
+	margin-right: 20px
+}
+.clp-tab-main-information .clp-field-payment-description{
+	margin-top: 30px;
+}
+.clp-tab-main-information .select-project-price-currency{
+	margin-left: 10px;
+}
+.clp-tab-main-information .clp-field-additional-information{
+	width: 100%;
+}
+
+
+.clp-tab-main-information .clp-field-project-status .clp-field-area-section{
+    padding: 15px 0px !important;
+}
+.clp-tab-main-information .clp-field-project-status .clp-field{
+	padding: 0px !important;
+}
+
+
+.administrator-section .section-name{
+	border-bottom: 1px solid #b5b5b5;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.administrator-section .section-name .clp-field-label{
+	color: #091e50;
+	font-weight: 600;
+	font-size: 1.3rem;
+	line-height: 100%;
+}
+.administrator-section .clp-field-area-section{
+	width: 100%;
+}
+.administrator-section .keep-project{
+	margin-top: 30px;
+}
+
+
+.clp-tab-description .clp-field-label{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	color: #091e50;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 100%;
+}
+.clp-tab-description .clp-field-flex-label{
+	margin-bottom: 0px;
+}
+.clp-tab-description .clp-field-area{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 40px;
+	margin: 0px !important;
+	padding: 10px 0px 20px 0px !important;
+}
+.clp-tab-description .choose_project_type .clp-field-area{
+    display: block;
+}
+.clp-tab-description .clp-field-area-section .cpl-field-textarea{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+/* Comments */
+.clp-comments-content{
+	padding-top: 15px;
+}
+#comments{
+	margin-top: 0px;
+}
+#comments-project-tab{
+	display: block;
+	position: absolute;
+	opacity: 0;
+}
+.comments-area-list{
+	position: relative;
+	min-height: 500px;
+	background: #f7f7f7;
+    margin-bottom: 40px;
+}
+.comments-area #comment::-webkit-scrollbar-track,
+.comment-list::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.comments-area #comment::-webkit-scrollbar,
+.comment-list::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+.comments-area #comment::-webkit-scrollbar-thumb,
+.comment-list::-webkit-scrollbar-thumb{
+	background-color: #3c5b8d;
+	border: 2px solid #555555;
+}
+.comments-area-list .comment-list{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: background .3s ease-out .1s;
+	opacity: 0;
+	padding: 0px 20px;
+}
+
+.comment-list .comment{
+    margin-bottom: 10px;
+}
+.comment-list .comment:first-child{
+	margin-top: 0px;
+}
+.comment-list .comment:last-child{
+	margin-bottom: 0px;
+}
+.comment-list .comment-body .project-comment{
+	display: flex;
+}
+.comment-list .comment-body .project-author-comment{
+    text-align: right;
+}
+.comment-list .comment-body .project-manager-comment{
+    text-align: left;
+}
+.comment-list .comment-author-content{
+	max-width: 200px;
+	text-align: center;
+}
+.comment-list .comment-author-content img{
+    border-radius: 999px !important;
+    max-width: 70px;
+}
+.comment-list .comment-author-content .author-name{
+	display: block;
+}
+.comment-list .comment-text-content{
+	flex: 1 1 0%;
+}
+.comment-list .comment-a{
+	font-size: 0.7rem;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+.comment-list .comment-text{
+	background: white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 7px;
+}
+.comment-list .sep-bl{
+    width: 20px;
+}
+
+
+
+#respond{
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #cdcdcd;
+}
+.comment-respond h3{
+	display: none;
+}
+.comment-form{
+	padding: 0px 10px;
+	display: flex;
+    align-items: flex-end;
+}
+.comment-form .comment-form-comment{
+	margin: 0px !important;
+	flex: 1 1 100%;
+	padding: 0px 20px 0px 0px !important;
+}
+.comment-form .comment-form-comment label{
+	display: none;
+}
+.comment-form .form-submit{
+	margin: 0px !important;
+}
+
+.comment-form-comment #comment{
+	height: 95px;
+	display: block;
+}
+
+.comment-form #submit{
+	position: relative;
+	transition: all .3s;
+	cursor: pointer;
+	font-weight: 700 !important;
+	font-size: 1rem;
+	text-align: center;
+	color: #FFFFFF;
+	background: #3c5b8d;
+	border-radius: 4px;
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	text-transform: uppercase !important;
+	letter-spacing: 0.3rem;
+}
+.comment-form #submit:hover{
+	background: #5684cf;
+}
+.comment-text-content .comment-edit-link{
+	transition: all .2s;
+	color: #800080;	
+}
+.comment-text-content .comment-edit-link:hover{
+    color: #5684cf;
+    text-decoration: none;
+}
+
+#comments .wpcf7{
+	padding: 0px 10px;
+	text-align: left;
+}
+#comments .wpcf7 .wpcf7-not-valid-tip span{
+	display: block;	
+}
+
+#comments .wpcf7 .wpcf7-not-valid-tip, #comments .wpcf7 .wpcf7-response-output{
+	display: none;
+}
+#comments .wpcf7 .wpcf7-response-output{
+    border-left: 4px solid #C74A4A;
+}
+
+
+#comments .messages-disabled{
+	border-left: 4px solid #C74A4A;
+	font-size: 0.9rem;
+	font-weight: 600;
+	margin: 20px 0px;
+	padding: 14px;
+	background-color: #f5f4f9;
+}
+#comments .messages-disabled.server-errore p{
+	margin: 0px !important;
+    text-align: left;
+}
+#comments .messages-disabled .messages-disabled-label{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 575.98px){
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+
+
+}
+
+
+@media (min-width: 1200px){
+
+
+}
+
+
+@media (max-width: 1800px){
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
