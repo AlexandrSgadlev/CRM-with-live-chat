@@ -12,18 +12,18 @@
 // site/project/project-1734
 </p>
 
-![Front page](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/1.png)
+![Настройки проекта и оповещение о новом сообщение](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/1.png)
 
 
 <p><b>Чат</b></br>
 // site/project/project-1734/conversation/
 </p>
 
-![Front page](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/2.png)
+![Чат](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/2.png)
 
 
 <p><b>Фильтрация проектов</b></br>
 // site/projectы
 </p>
 
-![Front page](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/3.png)
+![Фильтрация проектов](https://github.com/AlexandrSgadlev/CRM-with-live-chat/blob/main/3.png)
